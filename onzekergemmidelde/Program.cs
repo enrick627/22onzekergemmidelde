@@ -24,18 +24,17 @@ namespace onzekergemmidelde
     {
         static void Main(string[] args)
         {   //DECLARATIES
-            int geheelgetal, aantalingevoerdegetal, gemiddelde;
+            int geheelgetalen, gemiddelde;
 
 
 
             // VRAAG een aantal gehele getallen
             Console.WriteLine("geef een aantal gehele getallen!: ");
-            geheelgetal = int.Parse(Console.ReadLine());
+            geheelgetalen = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("geef het aantal ingevulde getallen!:");
-            aantalingevoerdegetal = int.Parse(Console.ReadLine());
+            
             //BEREKEN  GEMMIDDELDE(tel al de gegeven getallen op)
-            gemiddelde = 
+             
             //(deel de opgetelde getallen door het aantal ingegeven getallen)
             //(resultaat mac 3 getal na de komma en min 1 na de komma)
 

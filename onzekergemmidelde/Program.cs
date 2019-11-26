@@ -46,9 +46,8 @@ namespace onzekergemmidelde
 
 
 
-
             //BEREKEN  GEMMIDDELDE(tel al de gegeven getallen op)
-            gemiddelde = geheelgetalen / aantalgetalen;
+            gemiddelde = geheelgetalen1 + geheelgetal2 + geheelgetal3 + geheelgetal4 + geheelgetal5;
             //(deel de opgetelde getallen door het aantal ingegeven getallen)
             //(resultaat mac 3 getal na de komma en min 1 na de komma)
 

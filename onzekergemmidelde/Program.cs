@@ -23,7 +23,47 @@ namespace onzekergemmidelde
     class Program
     {
         static void Main(string[] args)
-        {   //DECLARATIES
+        {//declaraties
+            string gevraagdegetallen;
+            bool gevraagdegetalleninput;
+            int geheleget, getalekes;
+            int totget;
+            string input;
+            int aantal = 0;
+            // VRAAG een aantal gehele getallen
+            Console.WriteLine("geef een aantal gehelegetallen");
+            gevraagdegetallen = Console.ReadLine();
+
+            gevraagdegetalleninput = int.TryParse(gevraagdegetallen, out geheleget);
+            while (geheleget >= -50000 && geheleget <= 50000)
+            {
+                aantal++;
+                Console.WriteLine("geef nog een getal!: ");
+                gevraagdegetallen = Console.ReadLine();
+
+            }
+
+            if (gevraagdegetalleninput == false)
+            {
+                Console.WriteLine("doe het opwnieuw het getal dat u ingaf is fout!: ");
+                gevraagdegetalleninput = bool.Parse(Console.ReadLine());
+
+            }
+
+
+            //BEREKEN  GEMMIDDELDE(tel al de gegeven getallen op)
+
+            //(deel de opgetelde getallen door het aantal ingegeven getallen)
+            //(resultaat mac 3 getal na de komma en min 1 na de komma)
+
+            //TOON gemmidelde van ingegeven getallen max 3 na de komma min 1 na de komma
+
+            //WACHTEN
+            Console.WriteLine();
+            Console.WriteLine("druk op enter om af te sluiten");
+            Console.ReadKey();
+
+            //DECLARATIES
             int geheelgetalen1, geheelgetal2,geheelgetal3, geheelgetal4, geheelgetal5 , aantalgetalen, gemiddelde;
 
 

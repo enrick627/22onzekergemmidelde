@@ -49,10 +49,15 @@ namespace onzekergemmidelde
                 gevraagdegetalleninput = bool.Parse(Console.ReadLine());
 
             }
+            if (gevraagdegetallen = 0)
+            {
+                totget = gevraagdegetallen / aantal;
+                Console.Write(totget);
+            }
 
 
             //BEREKEN  GEMMIDDELDE(tel al de gegeven getallen op)
-
+            
             //(deel de opgetelde getallen door het aantal ingegeven getallen)
             //(resultaat mac 3 getal na de komma en min 1 na de komma)
 
@@ -63,40 +68,7 @@ namespace onzekergemmidelde
             Console.WriteLine("druk op enter om af te sluiten");
             Console.ReadKey();
 
-            //DECLARATIES
-            int geheelgetalen1, geheelgetal2,geheelgetal3, geheelgetal4, geheelgetal5 , aantalgetalen, gemiddelde;
-
-
-
-            // VRAAG een aantal gehele getallen
-            Console.WriteLine("geef een aantal gehele getallen!: ");
-            geheelgetalen1 = int.Parse(Console.ReadLine());
-
-            Console.WriteLine("geef een aantal gehele getallen!: ");
-            geheelgetal2= int.Parse(Console.ReadLine());
-
-            Console.WriteLine("geef een aantal gehele getallen!: ");
-            geheelgetal3 = int.Parse(Console.ReadLine());
-
-            Console.WriteLine("geef een aantal gehele getallen!: ");
-            geheelgetal4 = int.Parse(Console.ReadLine());
-
-            Console.WriteLine("geef een aantal gehele getallen!: ");
-            geheelgetal5 = int.Parse(Console.ReadLine());
-
-
-
-            //BEREKEN  GEMMIDDELDE(tel al de gegeven getallen op)
-            gemiddelde = (geheelgetalen1 + geheelgetal2 + geheelgetal3 + geheelgetal4 + geheelgetal5) / 5;
-            //(deel de opgetelde getallen door het aantal ingegeven getallen)
-            //(resultaat mac 3 getal na de komma en min 1 na de komma)
-
-            //TOON gemmidelde van ingegeven getallen max 3 na de komma min 1 na de komma
-            Console.WriteLine(gemiddelde);
-            //WACHTEN
-            Console.WriteLine();
-            Console.WriteLine("druk op enter om af te sluiten");
-            Console.ReadKey();
+            
         }
     }
 }
